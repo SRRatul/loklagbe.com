@@ -10,7 +10,7 @@
 ---
 
 ### **Project Title:**  
-**LokLagbe** - A one-stop solution for everyday services
+**LokLagbe** - A one-stop solution for home-related services
 
 ---
 
@@ -25,7 +25,7 @@
 
 ## **Problem Statement**
 
-Finding skilled service providers like electricians, plumbers, and drivers in Bangladesh is inefficient and unorganized. People rely on informal networks, leading to delays, inconsistent service quality, and security risks. Service providers also face irregular work and lack a platform to connect with customers.
+Finding skilled service providers like electricians, plumbers, and drivers in Bangladesh is inefficient and unorganized. People rely on informal networks, leading to delays, inconsistent service quality, and security risks. Service providers face irregular work and lack a platform to connect with customers.
 
 ### **Challenges for Customers:**
 - Difficulty finding reliable workers, leading to inconsistent quality.

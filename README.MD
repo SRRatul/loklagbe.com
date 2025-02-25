@@ -1,9 +1,4 @@
- 
-
-
-Project Idea Submission Form.
-
-Course code: CSE3200
+ Course code: CSE3200
 Course title: Design Project 2
 Section: 02
 Submitted to: Md Kaviul Hossain
@@ -18,14 +13,6 @@ Team members:
 3.	Argho Das (223014052)
 4.	Salvir Rahman Ratul (223014074)
 5.	Navid Rahman (223014105)
-
-
-Submission Date: 18/02/25
-
-
-
-
-
 
 
 1.	Problem statement:  

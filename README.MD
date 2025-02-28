@@ -63,7 +63,6 @@ This problem is common in urban areas where demand is high. A digital platform c
 ### **Core Features:**
 
 - **Service Browsing:** Easy navigation and search functionality with options for each service category.
-- **Service Provider Profiles:** Detailed profiles of service professionals.
 - **Booking System:**
   - Calendar/Date and Time Selection
   - Service Details
@@ -73,7 +72,6 @@ This problem is common in urban areas where demand is high. A digital platform c
 - **Reviews and Ratings System:** Allows customers to rate and review service providers.
 
 ### **Innovative Aspects:**
-- **Verified Service Providers:** Ensures security and reliability through admin approval.
 - **Automated Booking System:** Reduces cancellations and delays with scheduling tools.
 - **Comprehensive Order Tracking:** Enhances transparency in service fulfillment.
 - **User Reviews & Ratings:** Builds trust and improves service quality.

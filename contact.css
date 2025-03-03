@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Logo Styling */
+.logo-container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1b5e20;
+}
+
+.section-text {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Form Styles */
+.contact-form {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #1b5e20;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.primary-btn {
+    background-color: #d21f50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    background-color: #c4184a;
+}
+
+/* Footer */
+.footer {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    margin-top: 40px;
+}
+
+.footer h3 {
+    font-size: 1.8rem;
+    color: #1b5e20;
+    margin-bottom: 10px;
+}

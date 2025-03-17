@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Addresses - Sheba</title>
+    <link rel="stylesheet" href="myaddress.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile-section">
+            <!-- Profile Picture -->
+            <img src="Loklagbe.png" alt="Profile Picture" class="profile-picture">
+            
+            <!-- Profile Details -->
+            <div class="profile-details">
+                <div class="profile-detail">
+                    <i class="fas fa-envelope"></i>
+                    info@loklagbe.com
+                </div>
+                <div class="profile-detail">
+                    <i class="fas fa-phone"></i>
+                    +8801996732489
+                </div>
+                <div class="profile-detail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Dhaka, Bangladesh
+                </div>
+            </div>
+        </div>
+        
+        <!-- Menu Items -->
+        <div class="menu-items">
+            <a href="profile.html" class="menu-item">My Account</a>
+            <a href="myaddress.html" class="menu-item">My Address</a>
+            <a href="myoffer.html" class="menu-item active">My Offers</a>
+            <div class="menu-item">My Promotions</div>
+            <div class="menu-item">Free Services</div>
+            <div class="menu-item">Loklagbe  Credit</div>
+
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="content-header">
+            <h1 class="page-title">My Addresses</h1>
+        </div>
+
+        <!-- Source Addresses Section -->
+        <div class="info-card">
+            <h2>Source Addresses</h2>
+            <p>Save your frequently used addresses to make life easier</p>
+            <div class="button-group">
+                <button class="add-btn">Add Home</button>
+                <button class="add-btn">Add Work</button>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="info-card">
+            <h2>CONTACT</h2>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> 1636 / 869645240003</p>
+                <p><strong>Email:</strong> info@loklagbe.com</p>
+                <p><strong>Corporate Address:</strong></p>
+                <p>House 454, Close No. 31, Mohabhai Doha, Dhaka</p>
+                <p><strong>TRADE LICENSE NO:</strong> mudjbncc/histuri/2022</p>
+            </div>
+        </div>
+
+        <!-- Other Pages Section -->
+        <div class="info-card">
+            <h2>OTHER PAGES</h2>
+            <ul class="other-pages">
+                <li>Blog</li>
+                <li>Help</li>
+                <li>Terms of use</li>
+                <li>Privacy Policy</li>
+                <li>Related & Return Policy</li>
+                <li>Storengo</li>
+            </ul>
+        </div>
+
+        <!-- Company Section -->
+        <div class="info-card">
+            <h2>COMPANY</h2>
+            <ul class="company-list">
+                <li>storengo</li>
+                <li>starliness</li>
+                <li>stockery</li>
+                <li>tsenafiku</li>
+            </ul>
+        </div>
+
+        <!-- Download App Section -->
+        <div class="info-card">
+            <h2>DOWNLOAD ONE APP</h2>
+            <p>Tackle your top-fits wherever you are with our mobile app & make your life easy.</p>
+            <div class="button-group">
+                <button class="download-btn">App Store</button>
+                <button class="download-btn">Google Play</button>
+            </div>
+        </div>
+
+        <!-- Query Section -->
+        <div class="query-section">
+            <h3>Welcome to Loklagbe!</h3>
+            <p>Ask your query here.</p>
+            <textarea placeholder="Type your query..."></textarea>
+            <button class="submit-btn">Submit</button>
+        </div>
+    </div>
+
+    <script>
+        // Add active class to clicked menu item
+        const menuItems = document.querySelectorAll('.menu-item');
+        menuItems.forEach(item => {
+            item.addEventListener('click', () => {
+                menuItems.forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>

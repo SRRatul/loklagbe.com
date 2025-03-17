@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheba - My Account</title>
+    <link rel="stylesheet" href="profile.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile-section">
+            <!-- Profile Picture -->
+            <img src="Loklagbe.png" alt="Profile Picture" class="profile-picture">
+            
+            <!-- Profile Details -->
+            <div class="profile-details">
+                <div class="profile-detail">
+                    <i class="fas fa-envelope"></i>
+                    info@loklagbe.com
+                </div>
+                <div class="profile-detail">
+                    <i class="fas fa-phone"></i>
+                    +8801996732489
+                </div>
+                <div class="profile-detail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Dhaka, Bangladesh
+                </div>
+            </div>
+        </div>
+        
+        <!-- Menu Items -->
+        <div class="menu-items">
+            <a href="profile.html" class="menu-item">My Account</a>
+            <a href="myaddress.html" class="menu-item">My Address</a>
+            <a href="myoffer.html" class="menu-item active">My Offers</a>
+            <div class="menu-item">My Promotions</div>
+            <div class="menu-item">Free Services</div>
+            <div class="menu-item">loklagbe Credit</div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="content-header">
+            <h1 class="page-title">Personal Info</h1>
+            <button class="edit-btn">Edit</button>
+        </div>
+
+        <div class="info-card">
+            <!-- User Profile Picture and Info -->
+            <div class="user-profile-section">
+                <img src="profile.jpg" alt="User Profile Picture" class="user-profile-picture">
+                <div class="user-profile-info">
+                    <div class="info-row">
+                        <div class="info-label">Name</div>
+                        <div class="info-value">N/A</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Phone</div>
+                        <div class="info-value">N/A</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Email</div>
+                        <div class="info-value">N/A</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Date of birth</div>
+                        <div class="info-value">N/A</div>
+                    </div>
+                    <div class="info-row">
+                        <div class="info-label">Gender</div>
+                        <div class="info-value">N/A</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add active class to clicked menu item
+        const menuItems = document.querySelectorAll('.menu-item');
+        menuItems.forEach(item => {
+            item.addEventListener('click', () => {
+                menuItems.forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+            });
+        });
+
+        // Edit button functionality
+        const editBtn = document.querySelector('.edit-btn');
+        editBtn.addEventListener('click', () => {
+            // Add your edit functionality here
+            alert('Edit functionality goes here');
+        });
+    </script>
+</body>
+</html>

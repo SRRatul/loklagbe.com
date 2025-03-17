@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    background-color: #f5f5f5;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.profile-section {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid #2196f3;
+}
+
+.profile-name {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.profile-email {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.profile-details {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.profile-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.profile-detail i {
+    margin-right: 10px;
+    color: #2196f3;
+}
+
+.menu-item {
+    display: block;
+    padding: 12px 15px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: #333;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+}
+
+.menu-item.active {
+    background-color: #e3f2fd;
+    color: #2196f3;
+}
+
+/* Main Content Styles */
+.main-content {
+    flex: 1;
+    padding: 30px;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.page-title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.info-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: center; /* Center align content */
+}
+
+.user-profile-section {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align horizontally */
+    margin-bottom: 20px;
+}
+
+.user-profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px; /* Space between picture and details */
+    border: 3px solid #2196f3;
+}
+
+.user-profile-info {
+    width: 100%; /* Full width for user details */
+    text-align: left; /* Align text to the left */
+}
+
+.info-row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.info-label {
+    width: 150px;
+    color: #666;
+    text-align: left; /* Align label text to the left */
+    margin-right: 10px; /* Space between label and value */
+}
+
+.info-value {
+    color: #333;
+    text-align: left; /* Align value text to the left */
+}
+
+.edit-btn {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
